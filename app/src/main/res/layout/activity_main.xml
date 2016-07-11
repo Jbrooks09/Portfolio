@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.portfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/nanodegree_apps"
+        android:textColor="@color/Black"
+        android:textSize="16sp" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="popularMoviesClicked"
+        android:text="@string/popular_movies" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="stockHawkClicked"
+        android:text="@string/stock_hawk" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="buildItBiggerClicked"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="appMaterialClicked"
+        android:text="@string/app_material" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="ubiquitousClicked"
+        android:text="@string/ubiquitous" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:onClick="capstoneClicked"
+        android:text="@string/capstone" />
+</LinearLayout>
